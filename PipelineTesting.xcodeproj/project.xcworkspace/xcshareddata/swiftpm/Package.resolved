@@ -1,0 +1,104 @@
+{
+  "pins" : [
+    {
+      "identity" : "appdynamics",
+      "kind" : "remoteSourceControl",
+      "location" : "ssh://git@git.emirates.group/ema/appdynamics.git",
+      "state" : {
+        "revision" : "a5a9317d305692870fe0b714cf89091ec6716fc3",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "cwlcatchexception",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattgallagher/CwlCatchException.git",
+      "state" : {
+        "revision" : "3b123999de19bf04905bc1dfdb76f817b0f2cc00",
+        "version" : "2.1.2"
+      }
+    },
+    {
+      "identity" : "cwlpreconditiontesting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattgallagher/CwlPreconditionTesting.git",
+      "state" : {
+        "revision" : "a23ded2c91df9156628a6996ab4f347526f17b6b",
+        "version" : "2.1.2"
+      }
+    },
+    {
+      "identity" : "maplibre-gl-native-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maplibre/maplibre-gl-native-distribution",
+      "state" : {
+        "revision" : "ffda61e298c1490d4860d5184e80d618aaadc089",
+        "version" : "5.13.0"
+      }
+    },
+    {
+      "identity" : "nimble",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Quick/Nimble",
+      "state" : {
+        "revision" : "1f3bde57bde12f5e7b07909848c071e9b73d6edc",
+        "version" : "10.0.0"
+      }
+    },
+    {
+      "identity" : "pactmockserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/surpher/PactMockServer.git",
+      "state" : {
+        "revision" : "11fe519e6d1b0c513c717ba507e89ba401bdf8de",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "pactswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/surpher/PactSwift",
+      "state" : {
+        "revision" : "5240d616bbf6652e6076e195ccc82db36b44faad",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "pactswiftmockserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/surpher/PactSwiftMockServer.git",
+      "state" : {
+        "revision" : "c2f02dfba35618dc81f2863267a3a0cbec0fe9a8",
+        "version" : "0.4.3"
+      }
+    },
+    {
+      "identity" : "quick",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Quick/Quick.git",
+      "state" : {
+        "revision" : "f9d519828bb03dfc8125467d8f7b93131951124c",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "633996a807442ec28df9d33b0f88ce57a0e2fdbf",
+        "version" : "5.17.0"
+      }
+    },
+    {
+      "identity" : "swrve-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swrve/swrve-ios-sdk",
+      "state" : {
+        "revision" : "e570fc8dd32dbc8082b37a9549f7710989d7c45b",
+        "version" : "8.6.0"
+      }
+    }
+  ],
+  "version" : 2
+}
