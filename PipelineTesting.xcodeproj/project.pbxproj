@@ -15,7 +15,6 @@
 		6DC102FA2AA0974800046B37 /* SwrveSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC102F92AA0974800046B37 /* SwrveSDK */; };
 		6DC102FC2AA0974800046B37 /* SwrveSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC102FB2AA0974800046B37 /* SwrveSDKCommon */; };
 		6DC103002AA0998B00046B37 /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC102FF2AA0998B00046B37 /* Mapbox */; };
-		6DC103032AA099CE00046B37 /* ADEUMInstrumentation in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC103022AA099CE00046B37 /* ADEUMInstrumentation */; };
 		6DC103142AA09EC500046B37 /* PipelineTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC103132AA09EC500046B37 /* PipelineTestingTests.swift */; };
 		6DC1031F2AA09FBB00046B37 /* PactSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC1031E2AA09FBB00046B37 /* PactSwift */; };
 		6DC103222AA0A08400046B37 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC103212AA0A08400046B37 /* Nimble */; };
@@ -50,7 +49,6 @@
 				6DC102FC2AA0974800046B37 /* SwrveSDKCommon in Frameworks */,
 				6DC103002AA0998B00046B37 /* Mapbox in Frameworks */,
 				6DC102F82AA0974800046B37 /* SwrveConversationSDK in Frameworks */,
-				6DC103032AA099CE00046B37 /* ADEUMInstrumentation in Frameworks */,
 				6DC102FA2AA0974800046B37 /* SwrveSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +132,6 @@
 				6DC102F92AA0974800046B37 /* SwrveSDK */,
 				6DC102FB2AA0974800046B37 /* SwrveSDKCommon */,
 				6DC102FF2AA0998B00046B37 /* Mapbox */,
-				6DC103022AA099CE00046B37 /* ADEUMInstrumentation */,
 			);
 			productName = PipelineTesting;
 			productReference = 6DC102E52AA096CE00046B37 /* PipelineTesting.app */;
@@ -194,7 +191,6 @@
 			packageReferences = (
 				6DC102F62AA0974800046B37 /* XCRemoteSwiftPackageReference "swrve-ios-sdk" */,
 				6DC102FE2AA0998B00046B37 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
-				6DC103012AA099CE00046B37 /* XCRemoteSwiftPackageReference "appdynamics" */,
 				6DC1031D2AA09FBB00046B37 /* XCRemoteSwiftPackageReference "PactSwift" */,
 				6DC103202AA0A08400046B37 /* XCRemoteSwiftPackageReference "Nimble" */,
 				6DC103232AA0A0AA00046B37 /* XCRemoteSwiftPackageReference "Quick" */,
@@ -521,14 +517,6 @@
 				version = 5.13.0;
 			};
 		};
-		6DC103012AA099CE00046B37 /* XCRemoteSwiftPackageReference "appdynamics" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "ssh://git@git.emirates.group/ema/appdynamics.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.0.0;
-			};
-		};
 		6DC1031D2AA09FBB00046B37 /* XCRemoteSwiftPackageReference "PactSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/surpher/PactSwift";
@@ -575,11 +563,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6DC102FE2AA0998B00046B37 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
 			productName = Mapbox;
-		};
-		6DC103022AA099CE00046B37 /* ADEUMInstrumentation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6DC103012AA099CE00046B37 /* XCRemoteSwiftPackageReference "appdynamics" */;
-			productName = ADEUMInstrumentation;
 		};
 		6DC1031E2AA09FBB00046B37 /* PactSwift */ = {
 			isa = XCSwiftPackageProductDependency;

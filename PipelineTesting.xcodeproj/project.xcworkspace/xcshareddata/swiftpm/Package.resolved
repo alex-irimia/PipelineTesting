@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "appdynamics",
-      "kind" : "remoteSourceControl",
-      "location" : "ssh://git@git.emirates.group/ema/appdynamics.git",
-      "state" : {
-        "revision" : "a5a9317d305692870fe0b714cf89091ec6716fc3",
-        "version" : "1.0.0"
-      }
-    },
-    {
       "identity" : "cwlcatchexception",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mattgallagher/CwlCatchException.git",
